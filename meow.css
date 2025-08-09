@@ -1,0 +1,46 @@
+body {
+  background-color: purple;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.topcontent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.topitem {
+  color: purple;
+  background-color: pink;
+  padding: 5px;
+  margin: 5px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.topitem:hover {
+  color: chartreuse;
+  background-color: coral;
+}
+
+.navsum {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.navsumitem {
+  display: block;
+  background-color: hotpink;
+  color: darkblue;
+  padding: 10px;
+  text-decoration: none;
+  margin: 5px;
+  max-width: 1000px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.navsumitem:hover {
+  color: coral;
+  background-color: darkviolet;
+}
