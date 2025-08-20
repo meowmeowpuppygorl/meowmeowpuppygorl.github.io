@@ -20,13 +20,18 @@
 
 
 (defun my/org-html-headline-wrapper (orig-fun headline contents info)
-  "If :HTML_LINK is set, wrap the whole outline container in <a>.
-Otherwise, just return the default headline export."
+  "Customize headline export:
+- If :HTML_LINK is set, wrap the entire outline <div> in <a>.
+- If :HIDE_HEADING: t is set, remove the <hN> heading element."
   (let* ((link (org-element-property :HTML_LINK headline))
+         (hide (org-element-property :HIDE_HEADING headline))
          (default (funcall orig-fun headline contents info)))
+    ;; If hiding heading, strip out <hN>...</hN>
+    (when hide
+      (setq default (replace-regexp-in-string "<h[1-9][^>]*>.*?</h[1-9]>" "" default)))
+    ;; If link provided, wrap the entire outline block
     (if link
         (format "<a href=\"%s\">%s</a>" link default)
       default)))
 
 (advice-add 'org-html-headline :around #'my/org-html-headline-wrapper)
-
