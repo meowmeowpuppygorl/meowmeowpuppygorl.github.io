@@ -44,3 +44,31 @@ body {
   color: coral;
   background-color: darkviolet;
 }
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.outline-2 {
+  display: block;
+  background-color: hotpink;
+  color: darkblue;
+  padding: 10px;
+  text-decoration: none;
+  margin: 5px;
+  max-width: 1000px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.outline-2:hover {
+  color: coral;
+  background-color: darkviolet;
+}
+
+img {
+    height: 110%;
+    width: 100%;
+}
