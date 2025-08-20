@@ -72,3 +72,20 @@ img {
     height: 110%;
     width: 100%;
 }
+div.figure {
+  margin: 0;
+  padding: 0;
+}
+
+div.figure p {
+  margin: 0;
+  padding: 0;
+}
+
+div.figure img {
+  display: block;   /* remove inline gap */
+  margin: 0 auto;   /* optional: center horizontally */
+}
+a {
+  text-decoration: none;
+}
