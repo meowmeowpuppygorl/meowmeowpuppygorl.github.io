@@ -1,0 +1,40 @@
+#+OPTIONS: toc:nil num:nil
+* 
+:PROPERTIES:
+:HIDE_HEADING: t
+:END:
+[[file:media/anime-cat-tail-wagging.gif]]
+* Favorite Animated Things
+:PROPERTIES:
+:HTML_LINK: ./anime.html
+:END:
+ This is the page where I write what I want about my favorite animated things.
+ Lots of opinions about anime with fairly basic tastes but spicy opinions.
+* 
+:PROPERTIES:
+:HIDE_HEADING: t
+:END:
+
+[[file:media/anime-wolf.gif]]
+* Favorite Video Games
+:PROPERTIES:
+:HTML_LINK: ./videogames.html
+:END:
+ This is the page where I write what I want about my favorite videogames.
+ I don't know if my taste is pretentious but mostly rpg's and platformers for me thanks.
+* 
+:PROPERTIES:
+:HIDE_HEADING: t
+:END:
+[[file:media/uwu.gif]]
+* Linux
+:PROPERTIES:
+:HTML_LINK: ./linux.html
+:END:
+Any and all things pertaining to my unending love of linux.
+Operating systems and Software built for those operating systems
+* 
+:PROPERTIES:
+:HIDE_HEADING: t
+:END:
+[[file:media/monika.gif]]
